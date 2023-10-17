@@ -1,0 +1,3094 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "AGA": "http://xbrl.agat.dk/2023-04-30",
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://xbrl.agat.dk/2023-04-30/213800A9E3DB29NTMU72-2023-04-30.xsd"
+  ]
+ },
+ "facts": {
+  "f43": {
+   "value": " A/S ",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f90": {
+   "value": "Agat Ejendomme A/S ",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f91": {
+   "value": " M\u00f8lle\u00e5 1, 2. th. \u2022 9000 Aalborg ",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f92": {
+   "value": " Danmark",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f93": {
+   "value": " Danmark",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f94": {
+   "value": " Danmark",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "pp-value-13-1": {
+   "value": "Agat Ejendomme A/S\u2019 prim\u00e6re aktivitet er ejerskab og drift af ejendomme, der langt overvejende best\u00e5r af shopping- og outletcentre. Ejendomsportef\u00f8ljen udg\u00f8r knap 90,0 % af koncernens balance.",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "da",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00"
+   }
+  },
+  "f937": {
+   "value": "21800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f940": {
+   "value": "21300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f943": {
+   "value": "178500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f947": {
+   "value": "19800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyDevelopmentAndProjectManagementExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f950": {
+   "value": "15600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyDevelopmentAndProjectManagementExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f953": {
+   "value": "192100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyDevelopmentAndProjectManagementExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f958": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f961": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f964": {
+   "value": "-25300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f968": {
+   "value": "1800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GrossProfit",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f971": {
+   "value": "6800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GrossProfit",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f974": {
+   "value": "-38900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GrossProfit",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f978": {
+   "value": "1400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f981": {
+   "value": "3800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f984": {
+   "value": "-17500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f988": {
+   "value": "3200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:GrossProfitIncludingShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f991": {
+   "value": "10600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:GrossProfitIncludingShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f994": {
+   "value": "-56400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:GrossProfitIncludingShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f998": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:OtherExternalExpenses",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1001": {
+   "value": "1800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:OtherExternalExpenses",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1004": {
+   "value": "6100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:OtherExternalExpenses",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1009": {
+   "value": "3200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1012": {
+   "value": "3200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1015": {
+   "value": "12100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1020": {
+   "value": "-1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:ProfitLossFromOperatingActivitiesBeforeInterestTaxesDepreciationAndAmortisationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1023": {
+   "value": "5600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:ProfitLossFromOperatingActivitiesBeforeInterestTaxesDepreciationAndAmortisationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1026": {
+   "value": "-74600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:ProfitLossFromOperatingActivitiesBeforeInterestTaxesDepreciationAndAmortisationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1030": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1033": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1036": {
+   "value": "1800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1040": {
+   "value": "-2000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1043": {
+   "value": "5200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1046": {
+   "value": "-76400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1050": {
+   "value": "10000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1053": {
+   "value": "2200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1056": {
+   "value": "42500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1060": {
+   "value": "4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1063": {
+   "value": "7000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1066": {
+   "value": "27400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1070": {
+   "value": "3400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1073": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1076": {
+   "value": "-61300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1080": {
+   "value": "900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1083": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1086": {
+   "value": "2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1090": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1093": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1096": {
+   "value": "-63900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1106": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK/xbrli:shares"
+   }
+  },
+  "f1109": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK/xbrli:shares"
+   }
+  },
+  "f1112": {
+   "value": "-0.5",
+   "decimals": 1,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK/xbrli:shares"
+   }
+  },
+  "f1123": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1126": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1129": {
+   "value": "-63900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1137": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1140": {
+   "value": "-300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1143": {
+   "value": "-600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1149": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1152": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1155": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1160": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1163": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1166": {
+   "value": "700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1170": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1173": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1176": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1181": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1184": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1187": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1192": {
+   "value": "2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1195": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1198": {
+   "value": "-63800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1220": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPropertyPlantAndEquipment",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1223": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPropertyPlantAndEquipment",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1227": {
+   "value": "1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1230": {
+   "value": "1900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1234": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1237": {
+   "value": "2100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1241": {
+   "value": "474300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1244": {
+   "value": "477700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1248": {
+   "value": "474300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1251": {
+   "value": "477700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1255": {
+   "value": "78100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1258": {
+   "value": "78600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1262": {
+   "value": "74800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentReceivablesDueFromJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1265": {
+   "value": "74000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentReceivablesDueFromJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1269": {
+   "value": "152900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1272": {
+   "value": "152600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1276": {
+   "value": "15400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1279": {
+   "value": "16600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1283": {
+   "value": "15400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1286": {
+   "value": "16600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1290": {
+   "value": "644300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1293": {
+   "value": "649000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1299": {
+   "value": "338800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1302": {
+   "value": "344400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1306": {
+   "value": "6100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1309": {
+   "value": "3000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1313": {
+   "value": "1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentReceivablesDueFromJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1316": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentReceivablesDueFromJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1320": {
+   "value": "700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1323": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1327": {
+   "value": "4200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1330": {
+   "value": "4700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1335": {
+   "value": "29100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentPrepaymentsAndCurrentAccruedIncomeIncludingCurrentContractAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1338": {
+   "value": "30000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentPrepaymentsAndCurrentAccruedIncomeIncludingCurrentContractAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1342": {
+   "value": "41100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1345": {
+   "value": "38300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1349": {
+   "value": "6000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentInvestments",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1352": {
+   "value": "5700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentInvestments",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1357": {
+   "value": "22300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:CurrentDepositsInEscrowAccounts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1360": {
+   "value": "24300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:CurrentDepositsInEscrowAccounts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1365": {
+   "value": "25600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1368": {
+   "value": "57200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1372": {
+   "value": "433800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1375": {
+   "value": "469900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1379": {
+   "value": "1078100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1382": {
+   "value": "1118900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1403": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1406": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1411": {
+   "value": "-21000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1414": {
+   "value": "-21100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1418": {
+   "value": "300100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1421": {
+   "value": "297600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1425": {
+   "value": "396900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1428": {
+   "value": "394300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1433": {
+   "value": "422000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:LongTermBorrowingsFromCreditInstitutions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1436": {
+   "value": "429500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:LongTermBorrowingsFromCreditInstitutions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1440": {
+   "value": "12800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1443": {
+   "value": "13700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1447": {
+   "value": "434800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1450": {
+   "value": "443200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1454": {
+   "value": "159100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:ShortTermBorrowingsFromCreditInstitutions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1457": {
+   "value": "191800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:ShortTermBorrowingsFromCreditInstitutions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1461": {
+   "value": "16800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1464": {
+   "value": "16700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1468": {
+   "value": "45000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1471": {
+   "value": "45000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1475": {
+   "value": "13300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentPayables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1478": {
+   "value": "15100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentPayables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1482": {
+   "value": "5500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1485": {
+   "value": "5800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1490": {
+   "value": "6700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAccrualsAndCurrentDeferredIncomeIncludingCurrentContractLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1493": {
+   "value": "7000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAccrualsAndCurrentDeferredIncomeIncludingCurrentContractLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1497": {
+   "value": "246400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1500": {
+   "value": "281400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1504": {
+   "value": "681200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1507": {
+   "value": "724600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1512": {
+   "value": "1078100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1515": {
+   "value": "1118900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1540": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1543": {
+   "value": "-21200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1546": {
+   "value": "361500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1549": {
+   "value": "458100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1554": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1557": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1560": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1563": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1568": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1571": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1574": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1577": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1582": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1585": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1588": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1591": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1596": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1599": {
+   "value": "-21100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1602": {
+   "value": "361900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1605": {
+   "value": "458600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1610": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1613": {
+   "value": "-21100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1616": {
+   "value": "297600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1619": {
+   "value": "394300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1624": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1627": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1630": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1633": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1638": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1641": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1644": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1647": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1652": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1655": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1658": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1661": {
+   "value": "2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1666": {
+   "value": "117800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1669": {
+   "value": "-21000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1672": {
+   "value": "300100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1675": {
+   "value": "396900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1695": {
+   "value": "-2000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1698": {
+   "value": "5200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1701": {
+   "value": "-76400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1706": {
+   "value": "1400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForUndistributedProfitsOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1709": {
+   "value": "3800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForUndistributedProfitsOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1712": {
+   "value": "-17500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForUndistributedProfitsOfJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1717": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForGainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1720": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForGainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1723": {
+   "value": "-25300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForGainsLossesOnFairValueAdjustmentInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1727": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1730": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1733": {
+   "value": "1800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1737": {
+   "value": "6400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1740": {
+   "value": "1900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1743": {
+   "value": "54600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1747": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1750": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1753": {
+   "value": "-7500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1757": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossRightOfUseAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1760": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossRightOfUseAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1763": {
+   "value": "1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossRightOfUseAssets",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1767": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1770": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1773": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1777": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1780": {
+   "value": "-17900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1783": {
+   "value": "25700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1787": {
+   "value": "-1400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1790": {
+   "value": "4800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1793": {
+   "value": "15100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1797": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DividendsReceivedFromJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1800": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DividendsReceivedFromJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1803": {
+   "value": "11700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DividendsReceivedFromJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1807": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInReceivablesJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1810": {
+   "value": "2900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInReceivablesJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1813": {
+   "value": "5200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInReceivablesJointVentures",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1817": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "AGA:OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1820": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "AGA:OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1823": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1827": {
+   "value": "2300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInCurrentDepositsInEscrowAccounts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1830": {
+   "value": "9400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInCurrentDepositsInEscrowAccounts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1833": {
+   "value": "22300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:AdjustmentsForDecreaseIncreaseInCurrentDepositsInEscrowAccounts",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1837": {
+   "value": "-1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1840": {
+   "value": "-1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1843": {
+   "value": "-11300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1847": {
+   "value": "3200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1850": {
+   "value": "1200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1853": {
+   "value": "85700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1857": {
+   "value": "5200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1860": {
+   "value": "5800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1863": {
+   "value": "24300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1867": {
+   "value": "1600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1870": {
+   "value": "2200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1873": {
+   "value": "6200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1877": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1880": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1883": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1887": {
+   "value": "-600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1890": {
+   "value": "-2300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1893": {
+   "value": "67200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1897": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1900": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1903": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1907": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1910": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1913": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1917": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1920": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1923": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1927": {
+   "value": "3300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1930": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1933": {
+   "value": "3700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfInvestmentProperty",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1937": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1940": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1943": {
+   "value": "155900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1947": {
+   "value": "-1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DecreaseIncreaseInReceivablesJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1950": {
+   "value": "-800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DecreaseIncreaseInReceivablesJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1953": {
+   "value": "33200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "AGA:DecreaseIncreaseInReceivablesJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1957": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedFromJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1960": {
+   "value": "10000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedFromJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1963": {
+   "value": "10100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedFromJointVenturesClassifiedAsInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1968": {
+   "value": "2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1971": {
+   "value": "9300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1974": {
+   "value": "202300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1979": {
+   "value": "7500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfNoncurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1982": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfNoncurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1985": {
+   "value": "29500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfNoncurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1990": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1993": {
+   "value": "15100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f1996": {
+   "value": "16600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2001": {
+   "value": "25000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2004": {
+   "value": "5300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2007": {
+   "value": "196200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfCurrentBorrowings",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2011": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2014": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2017": {
+   "value": "4700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2023": {
+   "value": "-33600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2026": {
+   "value": "8700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2029": {
+   "value": "-213800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2033": {
+   "value": "-31600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00/2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2036": {
+   "value": "15700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2039": {
+   "value": "55700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00/2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2043": {
+   "value": "57200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2046": {
+   "value": "1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2049": {
+   "value": "1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2054": {
+   "value": "25600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2057": {
+   "value": "17200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2022-05-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  },
+  "f2060": {
+   "value": "57200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800A9E3DB29NTMU72",
+    "period": "2023-02-01T00:00:00",
+    "unit": "iso4217:DKK"
+   }
+  }
+ }
+}
