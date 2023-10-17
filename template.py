@@ -25,7 +25,7 @@ for subdir in ["pdf", "xlsx"]:
     os.makedirs(this_dir / "reports" / subdir, exist_ok=True)
 
 
-def create_report(path):
+def create_report(path, show_pdf=True):
     report = Report(path)
 
     # High-level balance sheet
@@ -93,17 +93,21 @@ def create_report(path):
         this_dir / "reports" / "xlsx" / f"{filename}.xlsx",
     )
     pdf_path = this_dir / "reports" / "pdf" / f"{filename}.pdf"
-    book.to_pdf(path=pdf_path, layout=this_dir / "layout.pdf", show=True)
-    book.close()
-    return report
+    book.to_pdf(
+        path=pdf_path, layout=this_dir / "layout.pdf", show=True if show_pdf else False
+    )
+    return book
 
 
 def main():
     book = xw.Book.caller()
     config = book.sheets["# options"]["A1"].expand().options(dict).value
     for ix, path in enumerate(Path(this_dir / "data").glob("*.json")):
-        report = create_report(path)
-        if config["number of reports"] == 1:
+        report = create_report(path, show_pdf=config["show pdf"])
+        report.close()
+        if config["number of reports"] == "All":
+            continue
+        elif ix == config["number of reports"] - 1:
             break
 
 
